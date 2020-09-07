@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('C:/6a pic/module3/images/logo.png') no-repeat;
+  background: url('../images/logo.png') no-repeat;
   width: 302px;
   height: 252px;
   margin: 10px 15px 10px 0;
