@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+#tile1 {
+	background-color: lightblue;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+h3 {
+	text-align: center;
+	color: black;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+@media (min-width: 1200px) {
+	.container .jumbotron {
+    background: url('../images/aboutuss.jpg') no-repeat;
+    width: 1000px;
+    height: 657px;
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+		background: url('../images/about.jpg') no-repeat;
+		width: 760px;
+		height: 400px;
+		margin-left: 65px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		background: url('../images/abouts.jpg') no-repeat;
+		width: 402px;
+		height: 299px;
+		margin-left: 120px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container .jumbotron {
+		background: url('../images/abouts.jpg') no-repeat;
+		width: 402px;
+		height: 299px;
+		margin-left: 120px;
+	}
+}

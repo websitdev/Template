@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+	.container .jumbotron {
+    background: url('../images/Learnwithus12.jpg') no-repeat;
+    width: 1127px;
+    height: 719px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container .jumbotron {
+		background: url('../images/learn.jpg') no-repeat;
+		width: 824px;
+		height: 508px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		background: url('../images/learnwithuss.jpg') no-repeat;
+		width: 586px;
+		height: 510px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container .jumbotron {
+		background: url('../images/learnnn.jpg') no-repeat;
+		width: 484px;
+		height: 457px;
+	}
+}
+#Coding-tile, #About-tile, #Youtube-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+}
+#Coding-tile, #About-tile, #Youtube-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  }
