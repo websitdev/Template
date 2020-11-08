@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ed502e;
+  border: 6px solid #0076ff;
   border-top-color: white;
   border-radius: 50%;
   width: 60px;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #ed502e;
+  color: #0b1c39;
 }
 
 .nav-menu .drop-down > a:after {
@@ -1896,7 +1896,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #ef6445;
+  background: #0076ff;
 }
 
 #footer .copyright {
