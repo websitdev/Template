@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="DynamicApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Functionallity.css">
+    <script src="angular.min.js"></script>
+    <script src="Functionallity.js"></script>
+    <title></title>
+  </head>
+  <body ng-controller="Dynamic">
+
+    <!-- Header -->
+
+    <nav>
+      <div class="brandname">
+        <h4>WebDevChat &lt; /&gt;</h4>
+    </div>
+  </nav>
+    <!-- End Header -->
+
+<div id="subtitle">
+  <h2 id="subtitletitle">{{message}}</h2>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <a class="subtitles" href="https://WebDevChat/SubSubCalc/"><h2 id="burger">Calculator</h2></a>
+            <p>We made more advanced calculator which works with any kind of browser so people can use calculator without downloading any third party app</p>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <a class="subtitles" href="https://WebDevChat/SubSubClock/"><h2 id="chicken">Clock</h2></a>
+            <p>We made more advanced clock which works with any kind of browser so people can see the time with more advanced options without downloading any third party app</p>
+        </section>
+    </div>
+
+    <div class="col-lg-4 col-md-12 col-sm-12">
+        <section>
+            <a class="subtitles" href="https://WebDevChat/SubSubRestSite/"><h2 id="pizza">Resturant Site</h2></a>
+           <p>Cause of corona now days we shouldn't touch Resturant menus so This project is here to provide full resturant menu which can be choose by the users mobile</p>
+        </section>
+    </div>
+
+<!-- <div class="container">
+  <div class="row">
+<div id="main1" class="col-lg-2 col-md-2 col-sm-2">
+</div>
+<div id="main2" class="col-lg-2 col-md-2 col-sm-2">
+</div>
+<div id="main3" class="col-lg-2 col-md-2 col-sm-2">
+</div>
+<div id="main4" class="col-lg-2 col-md-2 col-sm-2">
+</div>
+</div>
+</div> -->
+
+<h1 id="dyn">What is Dynamic here?</h1>
+<h1 id="namee">{{name}}</h1><br>
+<input type="text" ng-model="names" placeholder="Full name">&nbsp&nbsp<button id="button" ng-click="dynamicclick()">Click to see the result</button>
+<br><br>
+<input type="text" ng-model="text" placeholder="Your Text">&nbsp&nbsp<button id="button" ng-click="dynamicclick2()">Click and scroll to the top</button>
+<br><br>
+<!-- <button ng-click="reset">Reset all</button> -->
+  </body>
+</html>
