@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0076ff;
+  border: 6px solid #ed502e;
   border-top-color: white;
   border-radius: 50%;
   width: 60px;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #0b1c39;
+  color: #ed502e;
 }
 
 .nav-menu .drop-down > a:after {
@@ -333,9 +333,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #0b1c39;
+  color: #ed502e;
   text-decoration: none;
-  border-right: 2px dashed #0b1c39;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -1511,7 +1510,7 @@ section {
   color: #0076ff;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #00c6ff;
+  border: 2px dotted #fbdad2;
 }
 
 .contact .info-box h3 {
@@ -1897,7 +1896,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #0076ff;
+  background: #ef6445;
 }
 
 #footer .copyright {
